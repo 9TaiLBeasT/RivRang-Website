@@ -162,10 +162,10 @@ export default function Index() {
 
           {/* Image Cards */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 lg:gap-8 mt-12 md:mt-16 px-4">
-            <img src="public\1.png" alt="Project 1" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform rotate-6" />
-            <img src="public\4.png" alt="Project 2" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform -rotate-[8deg]" />
-            <img src="public\3.png" alt="Project 3" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform rotate-3" />
-            <img src="public\2.png" alt="Project 4" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform -rotate-[8deg]" />
+            <img src="/1.png" alt="Project 1" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform rotate-6" />
+            <img src="/4.png" alt="Project 2" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform -rotate-[8deg]" />
+            <img src="/3.png" alt="Project 3" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform rotate-3" />
+            <img src="/2.png" alt="Project 4" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform -rotate-[8deg]" />
           </div>
         </div>
       </section>
@@ -278,7 +278,7 @@ export default function Index() {
             <div className="grid md:grid-cols-[1fr_auto] gap-4 md:gap-6">
               <div className="h-[400px] md:h-[500px] lg:h-[580px] rounded-2xl lg:rounded-[32px] bg-light-gray">
                 {selectedService === 'graphic-design' && (
-                  <img src="public\services-1.png" alt="Graphic Design" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
+                  <img src="/services-1.png" alt="Graphic Design" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
                 )}
                 {selectedService === 'video-editing' && (
                   <>
@@ -310,10 +310,10 @@ export default function Index() {
                   </>
                 )}
                 {selectedService === 'social-media' && (
-                  <img src="public\service-3.png" alt="Social Media Marketing" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
+                  <img src="/service-3.png" alt="Social Media Marketing" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
                 )}
                 {selectedService === 'web-development' && (
-                  <img src="public\services-2.png" alt="Website Development" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
+                  <img src="/services-2.png" alt="Website Development" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
                 )}
                 {selectedService === 'meta-ads' && (
                   <img src="/placeholder.svg" alt="Meta Ads" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
@@ -409,14 +409,13 @@ export default function Index() {
               <div className="flex-shrink-0 w-full">
                 <div className="grid md:grid-cols-2 gap-4 md:gap-5">
                   <div className="h-[300px] md:h-[400px] lg:h-[463px] rounded-2xl lg:rounded-[32px] border-4 md:border-6 lg:border-8 border-white bg-light-gray shadow-lg overflow-hidden">
-                    <img src="public\our work-1.png" alt="Project 1" className="w-full h-full object-cover" />
+                    <img src="/our-work-1.png" alt="Project 1" className="w-full h-full object-cover" />
                   </div>
                   <div className="h-[300px] md:h-[400px] lg:h-[463px] rounded-2xl lg:rounded-[32px] border-4 md:border-6 lg:border-8 border-white bg-light-gray shadow-lg overflow-hidden">
                     <video className="w-full h-full object-cover" autoPlay loop muted playsInline>
-                      <source src="public\our work-2.png" type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
-                    <img src="public\our work-2.png" alt="Project 1" className="w-full h-full object-cover" />
+                       <source src="/Video Service.mp4" type="video/mp4" />
+                       Your browser does not support the video tag.
+                     </video>
                   </div>
                 </div>
               </div>
