@@ -10,9 +10,9 @@ export default function Index() {
   // Project data for different card sets
   const projectData = [
     {
-      tags: ['UX Research', 'Wireframe', 'Visual Design'],
-      title: 'Coca - Tech Startup Landing Page',
-      description: 'We start by getting to know our clients, their business goals, and their target audience. This involves conducting research, analyzing data, and discussing ideas with our clients to gain a deep understanding of their needs.'
+      tags: ['graphic designing', 'video editing', 'web designing'],
+      title: 'Sunrise overseas educational consultancy landing page',
+      description: 'We start by getting to know our client, their business goals, and their target audience. This involves conducting research, analyzing data, and discussing ideas with our clients to gain a deep understanding of their needs.'
     },
     {
       tags: ['Brand Strategy', 'UI/UX Design', 'Development'],
@@ -71,9 +71,14 @@ export default function Index() {
           </nav>
 
           {/* CTA Button */}
-          <button className="hidden md:block bg-lime text-black font-semibold text-base lg:text-lg px-6 lg:px-8 py-4 lg:py-5 rounded-[32px] hover:bg-lime/90 transition-colors">
+          <a
+            href="https://wa.me/7842329947"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden md:block bg-lime text-black font-semibold text-base lg:text-lg px-6 lg:px-8 py-4 lg:py-5 rounded-[32px] hover:bg-lime/90 transition-colors"
+          >
             Contact Us
-          </button>
+          </a>
 
           {/* Mobile Menu Button */}
           <button
@@ -118,9 +123,14 @@ export default function Index() {
               >
                 About
               </a>
-              <button className="bg-lime text-black font-semibold text-lg px-6 py-4 rounded-[32px] mt-4">
+              <a
+                href="https://wa.me/7842329947"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-lime text-black font-semibold text-lg px-6 py-4 rounded-[32px] mt-4"
+              >
                 Contact Us
-              </button>
+              </a>
             </nav>
           </div>
         )}
@@ -409,13 +419,10 @@ export default function Index() {
               <div className="flex-shrink-0 w-full">
                 <div className="grid md:grid-cols-2 gap-4 md:gap-5">
                   <div className="h-[300px] md:h-[400px] lg:h-[463px] rounded-2xl lg:rounded-[32px] border-4 md:border-6 lg:border-8 border-white bg-light-gray shadow-lg overflow-hidden">
-                    <img src="/our-work-1.png" alt="Project 1" className="w-full h-full object-cover" />
+                    <img src="/our work-1.png" alt="Project 1" className="w-full h-full object-cover" />
                   </div>
                   <div className="h-[300px] md:h-[400px] lg:h-[463px] rounded-2xl lg:rounded-[32px] border-4 md:border-6 lg:border-8 border-white bg-light-gray shadow-lg overflow-hidden">
-                    <video className="w-full h-full object-cover" autoPlay loop muted playsInline>
-                       <source src="/Video Service.mp4" type="video/mp4" />
-                       Your browser does not support the video tag.
-                     </video>
+                    <img src="/our work - 2.png" alt="Project 1" className="w-full h-full object-cover" />
                   </div>
                 </div>
               </div>
@@ -513,10 +520,10 @@ export default function Index() {
                   <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-light-gray flex-shrink-0"></div>
                   <div>
                     <h4 className="text-white text-lg md:text-xl lg:text-[22px] font-medium">
-                      Alan Baker
+                      Sandeep
                     </h4>
                     <p className="text-text-light text-sm md:text-base lg:text-lg">
-                      CEO of Redbird Company
+                      CEO of Sunrise Overseas Educational Consultancy
                     </p>
                   </div>
                 </div>
@@ -576,12 +583,7 @@ export default function Index() {
               </p>
 
               <div className="flex flex-wrap justify-center gap-4">
-                <button className="bg-dark-bg text-white font-semibold text-base md:text-lg px-8 md:px-10 lg:px-12 py-5 md:py-6 rounded-[48px] hover:bg-dark-bg/90 transition-colors">
-                  Hire Us
-                </button>
-                <button className="border border-dark-bg text-dark-bg font-semibold text-base md:text-lg px-8 md:px-10 lg:px-12 py-5 md:py-6 rounded-[48px] hover:bg-dark-bg hover:text-white transition-colors">
-                  Book Consultation
-                </button>
+
               </div>
             </div>
           </div>
@@ -607,12 +609,14 @@ export default function Index() {
 
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 pt-6 md:pt-8 border-t border-[#333]">
             <p className="text-white text-sm sm:text-base md:text-lg text-center md:text-left">
-              Copyright © 2024 RivRang. All rights reserved.
+              Copyright © 2025 RivRang. All rights reserved.
             </p>
 
             <div className="flex items-center gap-3 md:gap-4">
               <a
                 href="#"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-[#333] flex items-center justify-center hover:bg-[#444] transition-colors"
               >
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="white">
@@ -621,7 +625,9 @@ export default function Index() {
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/company/rivrang/?viewAsMember=true"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-[#333] flex items-center justify-center hover:bg-[#444] transition-colors"
               >
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="white">
@@ -630,24 +636,13 @@ export default function Index() {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/_rivrang_/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-[#333] flex items-center justify-center hover:bg-[#444] transition-colors"
               >
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="white">
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M9.9694 0.2402C4.4648 0.2402 0 4.7051 0 10.2097C0 14.6133 2.8746 18.3442 6.789 19.6898C7.2783 19.7509 7.4618 19.4451 7.4618 19.2005C7.4618 18.9558 7.4618 18.3442 7.4618 17.4879C4.7095 18.0996 4.0979 16.1424 4.0979 16.1424C3.6697 14.9803 2.9969 14.6745 2.9969 14.6745C2.0795 14.0629 3.0581 14.0629 3.0581 14.0629C4.0367 14.124 4.5872 15.1026 4.5872 15.1026C5.5046 16.6317 6.9113 16.2035 7.4618 15.9589C7.5229 15.2861 7.8287 14.858 8.0734 14.6133C5.8716 14.3687 3.5474 13.5124 3.5474 9.6592C3.5474 8.5583 3.9144 7.702 4.5872 6.9681C4.526 6.7846 4.159 5.7448 4.7095 4.3993C4.7095 4.3993 5.5657 4.1546 7.4618 5.439C8.2569 5.1944 9.1131 5.1332 9.9694 5.1332C10.8257 5.1332 11.682 5.2555 12.4771 5.439C14.3731 4.1546 15.2294 4.3993 15.2294 4.3993C15.7798 5.7448 15.4128 6.7846 15.3517 7.0292C15.9633 7.702 16.3914 8.6194 16.3914 9.7204C16.3914 13.5736 14.0673 14.3687 11.8654 14.6133C12.2324 14.9191 12.5382 15.5308 12.5382 16.4482C12.5382 17.7938 12.5382 18.8335 12.5382 19.2005C12.5382 19.4451 12.7217 19.7509 13.211 19.6898C17.1865 18.3442 20 14.6133 20 10.2097C19.9388 4.7051 15.474 0.2402 9.9694 0.2402Z"
-                  />
-                </svg>
-              </a>
-
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-[#333] flex items-center justify-center hover:bg-[#444] transition-colors"
-              >
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="white">
-                  <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.5 20 20 15.52 20 10C20 4.48 15.5 0 10 0ZM16.6 4.6C17.8 6.06 18.5 7.9 18.54 9.92C18.26 9.86 15.44 9.3 12.6 9.64C12.54 9.5 12.48 9.34 12.42 9.2C12.24 8.78 12.06 8.36 11.86 7.96C14.98 6.7 16.42 4.84 16.6 4.6ZM10 1.48C12.16 1.48 14.16 2.3 15.66 3.62C15.5 3.84 14.22 5.56 11.18 6.7C9.78 4.12 8.22 2.02 8 1.7C8.64 1.56 9.3 1.48 10 1.48ZM6.36 2.28C6.58 2.58 8.1 4.7 9.52 7.22C5.52 8.28 2 8.26 1.62 8.26C2.2 5.6 3.98 3.4 6.36 2.28ZM1.46 10.02C1.46 9.94 1.46 9.84 1.46 9.76C1.82 9.78 5.98 9.82 10.24 8.54C10.48 9.02 10.72 9.5 10.94 10C10.84 10.04 10.72 10.06 10.6 10.1C6.2 11.52 3.86 15.4 3.66 15.72C2.28 14.2 1.46 12.2 1.46 10.02ZM10 18.54C8.02 18.54 6.2 17.86 4.76 16.74C4.92 16.42 6.64 13.08 11.46 11.4C11.48 11.38 11.5 11.38 11.52 11.38C12.72 14.5 13.22 17.1 13.34 17.86C12.32 18.3 11.18 18.54 10 18.54ZM14.76 17.08C14.68 16.56 14.22 14.06 13.1 11C15.78 10.58 18.12 11.28 18.42 11.36C18.04 13.74 16.68 15.8 14.76 17.08Z" />
+                  <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM16.6 4.6C17.8 6.06 18.5 7.9 18.54 9.92C18.26 9.86 15.44 9.3 12.6 9.64C12.54 9.5 12.48 9.34 12.42 9.2C12.24 8.78 12.06 8.36 11.86 7.96C14.98 6.7 16.42 4.84 16.6 4.6ZM10 1.48C12.16 1.48 14.16 2.3 15.66 3.62C15.5 3.84 14.22 5.56 11.18 6.7C9.78 4.12 8.22 2.02 8 1.7C8.64 1.56 9.3 1.48 10 1.48ZM6.36 2.28C6.58 2.58 8.1 4.7 9.52 7.22C5.52 8.28 2 8.26 1.62 8.26C2.2 5.6 3.98 3.4 6.36 2.28ZM1.46 10.02C1.46 9.94 1.46 9.84 1.46 9.76C1.82 9.78 5.98 9.82 10.24 8.54C10.48 9.02 10.72 9.5 10.94 10C10.84 10.04 10.72 10.06 10.6 10.1C6.2 11.52 3.86 15.4 3.66 15.72C2.28 14.2 1.46 12.2 1.46 10.02ZM10 18.54C8.02 18.54 6.2 17.86 4.76 16.74C4.92 16.42 6.64 13.08 11.46 11.4C11.48 11.38 11.5 11.38 11.52 11.38C12.72 14.5 13.22 17.1 13.34 17.86C12.32 18.3 11.18 18.54 10 18.54ZM14.76 17.08C14.68 16.56 14.22 14.06 13.1 11C15.78 10.58 18.12 11.28 18.42 11.36C18.04 13.74 16.68 15.8 14.76 17.08Z" />
                 </svg>
               </a>
             </div>
