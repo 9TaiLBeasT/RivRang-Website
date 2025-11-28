@@ -12,12 +12,14 @@ export default function Index() {
     {
       tags: ['graphic designing', 'video editing', 'web designing'],
       title: 'Sunrise overseas educational consultancy landing page',
-      description: 'We start by getting to know our client, their business goals, and their target audience. This involves conducting research, analyzing data, and discussing ideas with our clients to gain a deep understanding of their needs.'
+      description: 'We start by getting to know our client, their business goals, and their target audience. This involves conducting research, analyzing data, and discussing ideas with our clients to gain a deep understanding of their needs.',
+      url: 'https://www.globalsunriseoverseas.com/'
     },
     {
       tags: ['Website Development', 'Meta Ads', 'Brand Strategy'],
       title: 'Nithya Infra Projects - Real Estate Website & Ads',
-      description: 'We built a comprehensive real estate website for Nithya Infra Projects featuring property listings, virtual tours, and lead generation systems. Additionally, we created and managed Meta ads campaigns to drive qualified leads and increase property sales.'
+      description: 'We built a comprehensive real estate website for Nithya Infra Projects featuring property listings, virtual tours, and lead generation systems. Additionally, we created and managed Meta ads campaigns to drive qualified leads and increase property sales.',
+      url: '#' // Update this with the actual Nithya Infra Projects URL when available
     }
   ];
   
@@ -470,9 +472,14 @@ export default function Index() {
               <h3 className="text-dark-bg text-xl sm:text-2xl md:text-3xl lg:text-[32px] font-monument">
                 {projectData[currentCardIndex].title}
               </h3>
-              <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-lime flex items-center justify-center flex-shrink-0">
+              <a 
+                href={projectData[currentCardIndex].url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-lime flex items-center justify-center flex-shrink-0 hover:bg-lime/90 transition-colors cursor-pointer"
+              >
                 <ChevronRight className="text-dark-bg w-4 h-4 md:w-5 md:h-5" />
-              </div>
+              </a>
             </div>
 
             <p className="text-text-dark-muted text-sm sm:text-base md:text-lg max-w-3xl mx-auto leading-relaxed px-4">
