@@ -15,9 +15,9 @@ export default function Index() {
       description: 'We start by getting to know our client, their business goals, and their target audience. This involves conducting research, analyzing data, and discussing ideas with our clients to gain a deep understanding of their needs.'
     },
     {
-      tags: ['Brand Strategy', 'UI/UX Design', 'Development'],
-      title: 'E-commerce Platform Redesign',
-      description: 'Our comprehensive approach to e-commerce design focuses on creating seamless user experiences that drive conversions. We analyze user behavior, optimize conversion funnels, and implement cutting-edge design patterns.'
+      tags: ['Website Development', 'Meta Ads', 'Brand Strategy'],
+      title: 'Nithya Infra Projects - Real Estate Website & Ads',
+      description: 'We built a comprehensive real estate website for Nithya Infra Projects featuring property listings, virtual tours, and lead generation systems. Additionally, we created and managed Meta ads campaigns to drive qualified leads and increase property sales.'
     }
   ];
   
@@ -172,10 +172,10 @@ export default function Index() {
 
           {/* Image Cards */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 lg:gap-8 mt-12 md:mt-16 px-4">
-            <img src="/1.png" alt="Project 1" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform rotate-6" />
-            <img src="/4.png" alt="Project 2" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform -rotate-[8deg]" />
-            <img src="/3.png" alt="Project 3" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform rotate-3" />
-            <img src="/2.png" alt="Project 4" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform -rotate-[8deg]" />
+            <img src="our photo/1.png" alt="Project 1" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform rotate-6" />
+            <img src="our photo/4.png" alt="Project 2" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform -rotate-[8deg]" />
+            <img src="our photo/3.png" alt="Project 3" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform rotate-3" />
+            <img src="our photo/2.png" alt="Project 4" className="w-full h-auto rounded-2xl lg:rounded-[32px] border-4 lg:border-8 border-white shadow-xl transform -rotate-[8deg]" />
           </div>
         </div>
       </section>
@@ -288,7 +288,7 @@ export default function Index() {
             <div className="grid md:grid-cols-[1fr_auto] gap-4 md:gap-6">
               <div className="h-[400px] md:h-[500px] lg:h-[580px] rounded-2xl lg:rounded-[32px] bg-light-gray">
                 {selectedService === 'graphic-design' && (
-                  <img src="/services-1.png" alt="Graphic Design" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
+                  <img src="Servies/services-1.png" alt="Graphic Design" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
                 )}
                 {selectedService === 'video-editing' && (
                   <>
@@ -320,10 +320,10 @@ export default function Index() {
                   </>
                 )}
                 {selectedService === 'social-media' && (
-                  <img src="/service-3.png" alt="Social Media Marketing" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
+                  <img src="Servies/service-3.png" alt="Social Media Marketing" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
                 )}
                 {selectedService === 'web-development' && (
-                  <img src="/services-2.png" alt="Website Development" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
+                  <img src="Servies/services-2.png" alt="Website Development" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
                 )}
                 {selectedService === 'meta-ads' && (
                   <img src="/placeholder.svg" alt="Meta Ads" className="w-full h-full object-cover rounded-2xl lg:rounded-[32px]" />
@@ -419,10 +419,10 @@ export default function Index() {
               <div className="flex-shrink-0 w-full">
                 <div className="grid md:grid-cols-2 gap-4 md:gap-5">
                   <div className="h-[300px] md:h-[400px] lg:h-[463px] rounded-2xl lg:rounded-[32px] border-4 md:border-6 lg:border-8 border-white bg-light-gray shadow-lg overflow-hidden">
-                    <img src="/our work-1.png" alt="Project 1" className="w-full h-full object-cover" />
+                    <img src="Testimonials/Sunrise Overseas/our work-1.png" alt="Project 1" className="w-full h-full object-cover" />
                   </div>
                   <div className="h-[300px] md:h-[400px] lg:h-[463px] rounded-2xl lg:rounded-[32px] border-4 md:border-6 lg:border-8 border-white bg-light-gray shadow-lg overflow-hidden">
-                    <img src="/our work - 2.png" alt="Project 1" className="w-full h-full object-cover" />
+                    <img src="Testimonials/Sunrise Overseas/our work - 2.png" alt="Project 1" className="w-full h-full object-cover" />
                   </div>
                 </div>
               </div>
@@ -431,10 +431,10 @@ export default function Index() {
               <div className="flex-shrink-0 w-full">
                 <div className="grid md:grid-cols-2 gap-4 md:gap-5">
                   <div className="h-[300px] md:h-[400px] lg:h-[463px] rounded-2xl lg:rounded-[32px] border-4 md:border-6 lg:border-8 border-white bg-light-gray shadow-lg overflow-hidden">
-                    <img src="/placeholder.svg" alt="Project 3" className="w-full h-full object-cover" />
+                    <img src="Testimonials/Nithya Infra Projects/Nithya Infra Website Demo.jpg" alt="Project 3" className="w-full h-full object-cover" />
                   </div>
                   <div className="h-[300px] md:h-[400px] lg:h-[463px] rounded-2xl lg:rounded-[32px] border-4 md:border-6 lg:border-8 border-white bg-light-gray shadow-lg overflow-hidden">
-                    <img src="/placeholder.svg" alt="Project 4" className="w-full h-full object-cover" />
+                    <img src="Testimonials/Nithya Infra Projects/Nithya Infra video.png" alt="Project 3" className="w-full h-full object-cover" />
                   </div>
                 </div>
               </div>
@@ -573,7 +573,16 @@ export default function Index() {
           </div>
 
           <div className="max-w-5xl mx-auto">
-            <div className="h-[200px] md:h-[240px] lg:h-[280px] rounded-2xl lg:rounded-3xl bg-light-gray mb-8 md:mb-10"></div>
+            <div className="h-[200px] md:h-[240px] lg:h-[280px] rounded-2xl lg:rounded-3xl bg-light-gray mb-8 md:mb-10 overflow-hidden">
+              <video 
+                src="/sample video.mp4" 
+                className="w-full h-full object-cover rounded-2xl lg:rounded-3xl"
+                autoPlay 
+                muted 
+                loop 
+                playsInline
+              />
+            </div>
 
             <div className="text-center space-y-6">
               <p className="text-black text-base sm:text-lg md:text-xl lg:text-[22px] max-w-4xl mx-auto leading-normal px-4">
